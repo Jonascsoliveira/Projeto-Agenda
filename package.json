@@ -1,5 +1,5 @@
 {
-  "name": "aula17",
+  "name": "projeto_agenda_node",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,7 +9,7 @@
     "dev": "webpack -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonas Oliveira",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
