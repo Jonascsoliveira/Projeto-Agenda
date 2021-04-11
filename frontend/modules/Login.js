@@ -26,12 +26,12 @@ export default class Login {
         if (!validator.isEmail(emailInput.value)) {
             alert('E-mail não é válido');
             error = true;
-        }
+        }/*
         if (passwordInput.value.length < 3 || passwordInput.value.length > 50) {
             alert('Senha precisa ter entre 3 e 50 caracteres');
             error = true;
         }
-
+*/
         if(!error) el.submit();
     }
 }
